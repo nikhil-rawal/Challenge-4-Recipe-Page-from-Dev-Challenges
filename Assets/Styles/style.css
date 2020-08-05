@@ -1,0 +1,846 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 100vw;
+}
+
+body {
+  background-color: #ffffff;
+  position: static;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.everything {
+  padding-left: 12vw;
+  padding-right: 10vw;
+}
+
+.everything .header {
+  padding-top: 2vh;
+}
+
+.everything .header .header-name {
+  font-size: 300%;
+  font-family: Playfair Display;
+  font-style: bold;
+}
+
+.everything .header .header-about {
+  color: #4f4f4f;
+  padding-right: 20vw;
+  font-family: Montserrat;
+  font-style: italic;
+}
+
+.everything .header .header-image {
+  width: 70vw;
+}
+
+.everything .main1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.everything .main1 .content-left {
+  width: 50vw;
+}
+
+.everything .main1 .content-left .main1-name1 {
+  font-family: Playfair Display;
+}
+
+.everything .main1 .content-left table {
+  padding-right: 10vw;
+  border-spacing: 0 2vh;
+}
+
+.everything .main1 .content-left table tr th {
+  text-align: left;
+  font-family: Playfair Display;
+  font-style: italic;
+  color: #333333;
+}
+
+.everything .main1 .content-left table tr td {
+  font-family: Montserrat;
+  vertical-align: baseline;
+}
+
+.everything .main1 .content-left table tr input::after {
+  margin-right: 1vw;
+}
+
+.everything .main1 .content-right {
+  width: 20vw;
+}
+
+.everything .main1 .content-right .main1-right {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.everything .main1 .content-right .main1-right .main1-right-content1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.everything
+  .main1
+  .content-right
+  .main1-right
+  .main1-right-content1
+  .image-cont1 {
+  padding-top: 5vh;
+}
+
+.everything
+  .main1
+  .content-right
+  .main1-right
+  .main1-right-content1
+  .image-cont1
+  .rest-icon {
+  width: 180%;
+}
+
+.everything
+  .main1
+  .content-right
+  .main1-right
+  .main1-right-content1
+  .definition-cont1 {
+  padding-top: 2.5vh;
+  padding-left: 4vw;
+}
+
+.everything
+  .main1
+  .content-right
+  .main1-right
+  .main1-right-content1
+  .definition-cont1
+  .dont-color {
+  color: #bdbdbd;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 90%;
+}
+
+.everything
+  .main1
+  .content-right
+  .main1-right
+  .main1-right-content1
+  .definition-cont1
+  .servings {
+  margin-top: -2.5vh;
+  color: #f2994a;
+}
+
+.everything .main1 .content-right .main1-right .main1-right-content2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.everything
+  .main1
+  .content-right
+  .main1-right
+  .main1-right-content2
+  .image-cont2 {
+  padding-top: 5vh;
+}
+
+.everything
+  .main1
+  .content-right
+  .main1-right
+  .main1-right-content2
+  .image-cont2
+  .clock-icon {
+  width: 120%;
+}
+
+.everything
+  .main1
+  .content-right
+  .main1-right
+  .main1-right-content2
+  .definition-cont2 {
+  padding-top: 2.5vh;
+  padding-left: 4vw;
+}
+
+.everything
+  .main1
+  .content-right
+  .main1-right
+  .main1-right-content2
+  .definition-cont2
+  .dont-color {
+  color: #bdbdbd;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 90%;
+}
+
+.everything
+  .main1
+  .content-right
+  .main1-right
+  .main1-right-content2
+  .definition-cont2
+  .simple {
+  margin-top: -2.5vh;
+}
+
+.everything .main1 .content-right .main1-right .main1-right-content3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.everything
+  .main1
+  .content-right
+  .main1-right
+  .main1-right-content3
+  .image-cont3 {
+  padding-top: 5vh;
+}
+
+.everything
+  .main1
+  .content-right
+  .main1-right
+  .main1-right-content3
+  .image-cont3
+  .clock-icon {
+  width: 120%;
+}
+
+.everything
+  .main1
+  .content-right
+  .main1-right
+  .main1-right-content3
+  .definition-cont3 {
+  padding-top: 2.5vh;
+  padding-left: 4vw;
+}
+
+.everything
+  .main1
+  .content-right
+  .main1-right
+  .main1-right-content3
+  .definition-cont3
+  .dont-color {
+  color: #bdbdbd;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 90%;
+}
+
+.everything
+  .main1
+  .content-right
+  .main1-right
+  .main1-right-content3
+  .definition-cont3
+  .simple {
+  margin-top: -2.5vh;
+}
+
+.everything .main1 .content-right .main1-right .main1-right-content4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.everything
+  .main1
+  .content-right
+  .main1-right
+  .main1-right-content4
+  .image-cont4 {
+  padding-top: 5vh;
+}
+
+.everything
+  .main1
+  .content-right
+  .main1-right
+  .main1-right-content4
+  .image-cont4
+  .clock-icon {
+  width: 120%;
+}
+
+.everything
+  .main1
+  .content-right
+  .main1-right
+  .main1-right-content4
+  .definition-cont4 {
+  padding-top: 2.5vh;
+  padding-left: 4vw;
+}
+
+.everything
+  .main1
+  .content-right
+  .main1-right
+  .main1-right-content4
+  .definition-cont4
+  .dont-color {
+  color: #bdbdbd;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 90%;
+}
+
+.everything
+  .main1
+  .content-right
+  .main1-right
+  .main1-right-content4
+  .definition-cont4
+  .simple {
+  margin-top: -2.5vh;
+}
+
+.everything .main2 {
+  width: 45vw;
+}
+
+.everything .main2 .main2-name1 {
+  font-family: Playfair Display;
+}
+
+.everything .main2 .list-items ol {
+  list-style: none;
+  counter-reset: li;
+}
+
+.everything .main2 .list-items ol li::before {
+  background-color: #f2994a;
+  border: 6px solid #f2994a;
+  border-radius: 15%;
+  content: counter(li);
+  color: #ffffff;
+  display: inline-block;
+  width: 1vw;
+  margin-left: -2.5vw;
+  padding-left: 0.6vw;
+}
+
+.everything .main2 .list-items ol li {
+  counter-increment: li;
+  font-family: Montserrat;
+  line-height: 150%;
+  margin-left: -0.5vw;
+  padding-bottom: 2vh;
+}
+
+.everything .main2 .source-details {
+  color: #bdbdbd;
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  padding: 5%;
+}
+
+.everything .footer {
+  padding-top: 15vh;
+  text-align: center;
+  color: #a9a9a9;
+  font-family: Montserrat;
+  line-height: 17px;
+}
+
+@media screen and (max-width: 800px) {
+  .everything .header .header-name {
+    font-size: 250%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .everything .header .header-name {
+    margin-left: -4vw;
+    font-size: 220%;
+  }
+  .everything .header .header-about {
+    font-size: 90%;
+  }
+  .everything .header .header-image {
+    border-radius: 15px;
+  }
+}
+
+.everything .main1-right-content1 {
+  grid-area: first;
+}
+
+.everything .main1-right-content2 {
+  grid-area: second;
+}
+
+.everything .main1-right-content3 {
+  grid-area: third;
+}
+
+.everything .main1-right-content4 {
+  grid-area: fourth;
+}
+
+@media screen and (max-width: 550px) {
+  .everything .header .header-name {
+    font-size: 180%;
+  }
+  .everything .header .header-about {
+    font-size: 75%;
+  }
+  .everything .header .header-image {
+    width: 90vw;
+    margin-left: -10vw;
+  }
+  .everything .main1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  .everything .main1 .content-left {
+    width: 100vw;
+    margin-left: -12vw;
+  }
+  .everything .main1 .content-left .main1-name1 {
+    font-size: 150%;
+  }
+  .everything .main1 .content-left .main1-about1,
+  .everything .main1 .content-left .main1-about2 {
+    font-size: 90%;
+  }
+  .everything .main1 .content-left label {
+    font-size: 85%;
+  }
+  .everything .main1 .content-right {
+    width: 100vw;
+    margin-left: -12vw;
+  }
+  .everything .main1 .content-right .main1-right {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    display: -ms-grid;
+    display: grid;
+    width: 99vw;
+    grid-template-areas:
+      "first first first"
+      "second third fourth";
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content1
+    .image-cont1 {
+    padding-top: 2.7vh;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content1
+    .image-cont1
+    i
+    .rest-icon {
+    width: 150%;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content1
+    .definition-cont1 {
+    padding-top: 0;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content1
+    .definition-cont1
+    .dont-color {
+    font-size: 90%;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content1
+    .definition-cont1
+    .color-it {
+    font-size: 85%;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content2
+    .image-cont2 {
+    padding-top: 2.7vh;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content2
+    .image-cont2
+    i
+    .clock-icon {
+    width: 110%;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content2
+    .definition-cont2 {
+    padding-top: 0;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content2
+    .definition-cont2
+    .dont-color {
+    font-size: 90%;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content2
+    .definition-cont2
+    .simple {
+    font-size: 85%;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content3
+    .image-cont3 {
+    padding-top: 2.7vh;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content3
+    .image-cont3
+    i
+    .clock-icon {
+    width: 110%;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content3
+    .definition-cont3 {
+    padding-top: 0;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content3
+    .definition-cont3
+    .dont-color {
+    font-size: 90%;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content3
+    .definition-cont3
+    .simple {
+    font-size: 85%;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content4
+    .image-cont4 {
+    padding-top: 2.7vh;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content4
+    .image-cont4
+    i
+    .clock-icon {
+    width: 110%;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content4
+    .definition-cont4 {
+    padding-top: 0;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content4
+    .definition-cont4
+    .dont-color {
+    font-size: 90%;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content4
+    .definition-cont4
+    .simple {
+    font-size: 85%;
+  }
+  .everything .main2 {
+    width: 90vw;
+    margin-left: -12vw;
+  }
+  .everything .main2 .main2-name1 {
+    font-size: 150%;
+  }
+  .everything .main2 li,
+  .everything .main2 .source-details {
+    font-size: 85%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .everything .header .header-name {
+    font-size: 160%;
+  }
+  .everything .main1 table {
+    border-spacing: 0 0;
+  }
+  .everything .main1 .content-left .main1-name1 {
+    font-size: 130%;
+  }
+  .everything .main1 .content-left .main1-about1,
+  .everything .main1 .content-left .main1-about2 {
+    font-size: 80%;
+  }
+  .everything .main1 .content-left label {
+    font-size: 75%;
+  }
+  .everything .main2 .main2-name1 {
+    font-size: 130%;
+  }
+  .everything .main2 li,
+  .everything .main2 .source-details {
+    font-size: 75%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .everything .header .header-name {
+    font-size: 145%;
+  }
+  .everything .header .header-about {
+    font-size: 65%;
+    width: 85vw;
+  }
+  .everything .main1 .content-left .main1-name1 {
+    font-size: 125%;
+  }
+  .everything .main1 .content-left .main1-about1,
+  .everything .main1 .content-left .main1-about2 {
+    font-size: 75%;
+  }
+  .everything .main1 .content-left label {
+    font-size: 70%;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content1
+    .image-cont1
+    i
+    .rest-icon {
+    width: 130%;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content1
+    .definition-cont1
+    .dont-color {
+    font-size: 80%;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content1
+    .definition-cont1
+    .color-it {
+    font-size: 80%;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content2
+    .image-cont2
+    i
+    .clock-icon {
+    width: 100%;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content2
+    .definition-cont2
+    .dont-color {
+    font-size: 80%;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content2
+    .definition-cont2
+    .simple {
+    font-size: 80%;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content3
+    .image-cont3
+    i
+    .clock-icon {
+    width: 100%;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content3
+    .definition-cont3
+    .dont-color {
+    font-size: 80%;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content3
+    .definition-cont3
+    .simple {
+    font-size: 80%;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content4
+    .image-cont4
+    i
+    .clock-icon {
+    width: 100%;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content4
+    .definition-cont4
+    .dont-color {
+    font-size: 80%;
+  }
+  .everything
+    .main1
+    .content-right
+    .main1-right
+    .main1-right-content4
+    .definition-cont4
+    .simple {
+    font-size: 80%;
+  }
+  .everything .main2 .main2-name1 {
+    font-size: 125%;
+  }
+  .everything .main2 li,
+  .everything .main2 .source-details {
+    font-size: 70%;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .everything .header .header-name {
+    font-size: 135%;
+  }
+  .everything .header .header-about {
+    font-size: 55%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .everything .header .header-name {
+    font-size: 125%;
+  }
+  .everything .header .header-about {
+    font-size: 50%;
+  }
+  .everything .footer {
+    font-size: 75%;
+  }
+}
